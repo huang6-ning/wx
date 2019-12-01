@@ -1,0 +1,105 @@
+
+.detail_swiper {
+    swiper {
+        height: 60vw;
+        text-align: center;
+        image {
+            width: 60%;
+        }
+    }
+}
+
+.goods_price {
+    font-size: 32rpx;
+    font-weight: 600;
+    color: var(--themeColor);
+    padding: 15rpx;
+}
+
+.goods_name_row {
+    padding-bottom: 20rpx;
+    display: flex;
+    .goods_name {
+        flex: 5;
+        font-size: 30rpx;
+        color: black;
+        padding: 0 10rpx;
+        
+        display: -webkit-box;
+        overflow: hidden;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp:2;
+    }
+    .goods_collect {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-left: 1rpx solid #a5a2a2;
+        .icon-shoucang1 {
+            color: rgb(250, 67, 6);
+        }
+    }
+}
+
+.goods_info {
+    padding-bottom: 90rpx;
+    .goods_info_title {
+        font-size: 32rpx;
+        font-weight: 600;
+        color: var(--themeColor);
+        padding: 20rpx;
+        border-top: 1rpx solid #a5a2a2;
+    }
+}
+
+.btm_tool {
+    border-top: 1rpx solid rgb(190, 189, 189);
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 90rpx;
+    display: flex;
+    background-color: #fff;
+    .tool_item {
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        font-size: 24rpx;
+        position: relative;
+        button {
+            width: 100%;
+            height: 100%;
+            opacity: 0;
+            position: absolute;
+            left: 0;
+            top: 0;
+        }
+    }
+    .btn_cart {
+        flex: 2;
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        font-size: 30rpx;
+        font-weight: 600;
+        background-color: orange;
+    }
+    .btn_buy {
+        flex: 2;
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        font-size: 30rpx;
+        font-weight: 600;
+        background-color:  #eb4450;
+    }
+}
